@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.vl.samples.customTextview.TypefacedTextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:your_namespace="http://schemas.android.com/apk/res/com.vl.samples"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom fonts in XML are easy"
+        android:textColor="#136ef8"
+        android:textSize="14dip"
+        your_namespace:textStyle="bold"/>
+    <!-- your_namespace:typeface="fonts/la_fraktouille.ttf" -->
+
+</LinearLayout>

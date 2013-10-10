@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hello" />
+
+    <TimePicker
+        android:id="@+id/time_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Medium Text"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:typeface="serif" />
+
+    <com.vl.samples.customTextview.TypefacedTextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:your_namespace="http://schemas.android.com/apk/res/com.vl.samples"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom fonts in XML are easy_bold"
+        android:textColor="#136ef8"
+        android:textSize="14dip"
+        your_namespace:textStyle="bold" />
+
+    <com.vl.samples.customTextview.TypefacedTextView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:your_namespace="http://schemas.android.com/apk/res/com.vl.samples"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Custom fonts in XML are easy_regular"
+        android:textColor="#136ef8"
+        android:textSize="14dip" />
+    <!-- your_namespace:typeface="fonts/la_fraktouille.ttf" -->
+
+    <Button
+        android:id="@+id/temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="click me(activity launch animation)" />
+
+    <Button
+        android:id="@+id/flip_anim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Flip animation" />
+
+</LinearLayout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.vl.samples"
+    android:installLocation="auto"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="8" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.SEND_SMS" />
+	
+    <uses-feature android:name="android:hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <uses-library android:name="com.google.android.maps" />
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".text2speech.TextToSpeechActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:icon="@drawable/icon"
+            android:label="text2speech.TextToSpeechActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".fileDownload.download"
+            android:label="fileDownload.download"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activityForResult.ResultActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="activityForResult.ResultActivity" >
+        </activity>
+        <activity
+            android:name=".activityForResult.MainActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="activityForResult.MainActivity" >
+        </activity>
+        <activity
+            android:name=".animation.DrawableAnimationActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="animation.DrawableAnimationActivity" >
+        </activity>
+        <activity
+            android:name=".animation.ViewAnimationActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="animation.ViewAnimationActivity" >
+        </activity>
+        <activity
+            android:name=".activityAnimation.FirstActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="activityAnimation.FirstActivity" >
+        </activity>
+        <activity
+            android:name=".activityAnimation.SecondActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="activityAnimation.SecondActivity"
+            android:theme="@style/Theme.MyAwesomeTheme" >
+        </activity>
+        <activity
+            android:name=".activityAnimation.FlipAnimActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="activityAnimation.FlipAnimActivity"
+            android:theme="@style/Theme.FlipAnimationTheme" 
+             >
+        </activity>
+        <activity
+            android:name=".camaraImgStore.CamaraTestActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="camaraImgStore.CamaraTestActivity" >
+        </activity>
+        <activity
+            android:name=".googleMap.GoogleMapActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation" >
+        </activity>
+        <activity
+            android:name=".customImageView.MyImageView"
+            android:configChanges="orientation" >
+        </activity>
+        <activity
+            android:name=".gpsLocation.GPSLocationActivity"
+            android:configChanges="orientation" >
+        </activity>
+        <activity
+            android:name=".gpsLocation.ShowLocationActivity"
+            android:configChanges="orientation" >
+        </activity>
+        
+        <activity
+            android:name=".textJustify.JustifyTextActivity"
+            android:configChanges="orientation" >
+        </activity>
+        <activity
+            android:name=".ninePatch.NinePatchActivity"
+            android:configChanges="orientation" >
+        </activity>
+        <activity
+            android:name=".googleCharts.GoogleChartsActivity"
+            android:configChanges="orientation" >
+        </activity>
+        <activity android:name=".verticalTextView.VerticalTextActivity" 
+            android:configChanges="orientation">
+        </activity>
+        <activity
+            android:name=".charts.ChartsActivity"
+            android:configChanges="orientation" >
+        </activity>
+        <activity android:name=".webviewintent.MyWebViewImplicitIntent"
+            android:label="SunnyWorld">
+            <intent-filter>
+			      <action android:name="android.intent.action.VIEW" />
+			      <category android:name="android.intent.category.DEFAULT" />
+			      <data android:scheme="http" />
+			</intent-filter>
+        </activity>
+        <activity
+            android:name=".ellipsizetextview.EllipsizeTextViewActivity"
+            android:configChanges="orientation" >
+        </activity>
+        
+        
+        <!--scrollview related  -->
+        <activity android:name=".scrollview.MainActivity" >
+        </activity>
+         <activity android:name=".scrollview.ListViewInScrollviewActivity" >
+        </activity>
+        <activity android:name=".scrollview.FillContentScrollViewActivity" >
+        </activity>
+        <activity android:name=".scrollview.SimpleScrollActivity" >
+        </activity>
+        <activity android:name=".scrollview.HorizontalScrollActivity" >
+        </activity>
+        <activity
+            android:name=".scrollview.ScrollWithWeightActivity"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity android:name=".expandablelistview.ExpandableListViewActivity"></activity>
+        <activity android:name=".listview.SingleItemSelectionListActivity"></activity>
+        <activity android:name=".googleMap.DirectionActivity"></activity>
+        <activity android:name=".sms.SMSActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".customcamera.CustomCameraActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".customcamera.PreviewDemo" android:screenOrientation="portrait"></activity>
+        <activity android:screenOrientation="portrait" android:name=".customcamera.ImageActivity"></activity>
+        
+    </application>
+
+</manifest>

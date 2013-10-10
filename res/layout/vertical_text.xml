@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="20dp">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="vertical text using rotate anim" />
+
+    <com.vl.samples.verticalTextView.VerticalTextView
+        android:id="@+id/verticalTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VerticalTextView" />
+
+    <com.vl.samples.verticalTextView.VerticalLabelView
+        xmlns:label="http://schemas.android.com/apk/res/com.vl.samples"
+        android:id="@+id/verticalLabelView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        label:textSize="20dp"
+        label:text="using Vertical label"
+        label:textColor="#ff0000" />
+
+</LinearLayout>

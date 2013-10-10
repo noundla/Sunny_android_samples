@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/satilite"
+        android:icon="@drawable/satellite" />
+    <item android:id="@+id/street"
+        android:title="Street View" />
+    <item android:id="@+id/traffic"
+        android:title="Traffic"
+        android:icon="@drawable/traffic" />
+     <item android:id="@+id/current_location"
+        android:title="Current Location" />
+</menu>

@@ -1,0 +1,22 @@
+<com.example.listselection.CustomLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:background="@drawable/list_selector">
+
+        <TextView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            
+            android:padding="15dp"
+            android:text="dsdfasdfsad" >
+        </TextView>
+    </RelativeLayout>
+
+</com.example.listselection.CustomLayout>

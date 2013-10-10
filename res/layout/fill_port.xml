@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<!--android:fillViewport="true"  -->
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Terms &amp; Conditions"
+                android:textColor="#ff0000"
+                android:textSize="20dp" />
+<!-- android:text="This email and any attachments to it may be confidential and are intended solely for the use of the individual to whom it is addressed. Any views or opinions expressed are solely those of the author and do not necessarily represent those of ValueLabs. Any form of reproduction , dissemination , copying , disclosure , modification , distribution and / or publication of this message without the prior written consent of the author of this e-mail is strictly prohibited. Please contact the sender and delete all copies if you believe you have received this email in error. This email and any attachments to it may be confidential and are intended solely for the use of the individual to whom it is addressed. Any views or opinions expressed are solely those of the author and do not necessarily represent those of ValueLabs. Any form of reproduction , dissemination , copying , disclosure , modification , distribution and / or publication of this message without the prior written consent of the author of this e-mail is strictly prohibited. Please contact the sender and delete all copies if you believe you have received this email in error. This email and any attachments to it may be confidential and are intended solely for the use of the individual to whom it is addressed. Any views or opinions expressed are solely those of the author and do not necessarily represent those of ValueLabs. Any form of reproduction , dissemination , copying , disclosure , modification , distribution and / or publication of this message without the prior written consent of the author of this e-mail is strictly prohibited. Please contact the sender and delete all copies if you believe you have received this email in error. This email and any attachments to it may be confidential and are intended solely for the use of the individual to whom it is addressed. Any views or opinions expressed are solely those of the author and do not necessarily represent those of ValueLabs. Any form of reproduction , dissemination , copying , disclosure , modification , distribution and / or publication of this message without the prior written consent of the author of this e-mail is strictly prohibited. Please contact the sender and delete all copies if you believe you have received this email in error. This email and any attachments to it may be confidential and are intended solely for the use of the individual to whom it is addressed. Any views or opinions expressed are solely those of the author and do not necessarily represent those of ValueLabs. Any form of reproduction , dissemination , copying , disclosure , modification , distribution and / or publication of this message without the prior written consent of the author of this e-mail is strictly prohibited. Please contact the sender and delete all copies if you believe you have received this email in error. This email and any attachments to it may be confidential and are intended solely for the use of the individual to whom it is addressed. Any views or opinions expressed are solely those of the author and do not necessarily represent those of ValueLabs. Any form of reproduction , dissemination , copying , disclosure , modification , distribution and / or publication of this message without the prior written consent of the author of this e-mail is strictly prohibited. Please contact the sender and delete all copies if you believe you have received this email in error." -->
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:text="some text here"
+                 />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center" >
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="35dp"
+                    android:paddingRight="35dp"
+                    android:text="Yes" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_marginLeft="40dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="35dp"
+                    android:paddingRight="35dp"
+                    android:text="No" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

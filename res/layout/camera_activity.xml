@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/camera_preview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_layoout"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle_shapes" >
+    </FrameLayout>
+
+    
+
+    <!--
+         <ImageView
+        android:id="@+id/imageView_ttle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ironride_title_bar" />
+    -->
+
+    <RelativeLayout
+        android:id="@+id/bottom_layoout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#000000" >
+
+        <ImageView
+            android:id="@+id/imageViewSnap"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/picture_thumbnail_placeholder"
+            android:padding="10dp"
+            android:scaleType="fitXY" />
+
+        <Button
+            android:id="@+id/buttonretake"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="Retake"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/buttonuse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/buttonretake"
+            android:text="Use"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/buttonSnap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Snap"
+        android:visibility="visible" />
+
+</RelativeLayout>

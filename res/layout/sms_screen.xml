@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/phoneTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Phone Number" />
+
+            <EditText
+                android:id="@+id/phoneET"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:ems="10"
+                android:inputType="number" >
+
+                <requestFocus />
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/messageTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message:" />
+
+    <EditText
+        android:id="@+id/messageET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="5"
+        android:gravity="top"
+        android:layout_weight="1"
+        android:ems="10" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/sendBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Send" />
+
+        <Button
+            android:id="@+id/resetBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Reset" />
+
+    </LinearLayout>
+
+</LinearLayout>

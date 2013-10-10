@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bacground image is used 9-patch"
+            android:textAppearance="?android:attr/textAppearanceMedium" android:textStyle="bold" android:textColor="@color/DarkOliveGreen" android:background="@color/red" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_marginBottom="15dp" android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9 patch using only Scale (default full content)"
+            android:textColor="@color/COLOR_WHITE"
+            android:textSize="13sp"
+            android:textStyle="bold" android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_scaleonly" android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img2" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img1" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img3" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="9 patch using Scale &amp; full content"
+            android:textColor="@color/red"
+            android:textSize="13sp"
+            android:textStyle="bold" android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_scale_full_content" android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/ImageView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img2" />
+
+            <ImageView
+                android:id="@+id/ImageView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img1" />
+
+            <ImageView
+                android:id="@+id/ImageView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img3" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="9 patch using Scale &amp; limited content space"
+            android:textColor="@color/COLOR_WHITE"
+            android:textSize="13sp"
+            android:textStyle="bold" android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_scale_limited_content_space" android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/ImageView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img2" />
+
+            <ImageView
+                android:id="@+id/ImageView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img1" />
+
+            <ImageView
+                android:id="@+id/ImageView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img3" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="9 patch using No Scale &amp; limited content space"
+            android:textColor="@color/red"
+            android:textSize="13sp"
+            android:textStyle="bold" android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_no_scale_limit_content" android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/ImageView08"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/img2" />
+
+            <ImageView
+                android:id="@+id/ImageView07"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/img1" />
+
+            <ImageView
+                android:id="@+id/ImageView09"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/img3" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/TextView03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="9 patch using No Scale &amp; no content space (using regular image)"
+            android:textColor="@color/COLOR_WHITE"
+            android:textSize="13sp"
+            android:textStyle="bold" android:layout_gravity="center"/>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_regular" android:layout_gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/img2" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/img1" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:src="@drawable/img3" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

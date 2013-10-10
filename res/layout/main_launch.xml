@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood"
+    android:orientation="vertical"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" android:paddingBottom="15dp">
+
+            <Button
+                android:id="@+id/drawable_anim"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="Drawable animation"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/view_anim"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="View animation(Tweened)"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/activity_anim"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="Activity Launch vth animation"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/camara_img_store"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="Camara image store"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/google_map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="Google Map"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/custom_dialog"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="Custom Dialog"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/custom_image"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="Custom ImageView zoom"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/gps"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="Gps Location &amp; address"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/text_2_speech"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="Text to speech"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/text_justify"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="Justify Text"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/nine_patch"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="How to use 9-patch"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/google_charts_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="google charts"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/custom_charts_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="Custom charts"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/vertical_text_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="Vertical Text"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+            
+            <Button
+                android:id="@+id/ellipsizetextview_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="Ellipsize Text"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/launch_scrollapp_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="Launch Scroll Sample app"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/expandable_list_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="Expandable List"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+            
+            <Button
+                android:id="@+id/single_selection_list_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="Selection List"
+                android:textColor="@color/COLOR_WHITE"
+                android:onClick="singleSelectionList"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/direction_map"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="Direction Map"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+             <Button
+                android:id="@+id/sms_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="SMS actions"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+            <Button
+                android:id="@+id/customCameraBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/button_shape"
+                android:text="Custom Camera"
+                android:textColor="@color/COLOR_WHITE"
+                android:textStyle="bold" />
+            
+        </LinearLayout>
+        
+    </ScrollView>
+
+</LinearLayout>

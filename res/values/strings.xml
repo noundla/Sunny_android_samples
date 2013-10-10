@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SamplesActivity!</string>
+    <string name="app_name">Sunny samples</string>
+   	<!-- #the below are for gps location -->
+    <string name="cancel">Cancel</string>
+    <string name="open_location_settings">Open Location Settings</string>
+    <string name="gps_network_not_enabled">GPS provider and Network provider are not enabled to fetch your location.</string>
+    <string name="Finding_Address_unable_to_get_location">Unable to determine the Current Location.</string>
+    <string name="alert_title">Alert!</string>
+    <string name="no_internet">No Internet connection found. Please try again.</string>
+    <string name="ok_text">Ok</string>
+    <string name="alert_error">Alert</string>
+
+</resources>

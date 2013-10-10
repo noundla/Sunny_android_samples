@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent"
+    android:fadingEdge="horizontal|vertical"
+    android:fadingEdgeLength="10dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/alert_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/app_name"
+        android:textColor="@color/COLOR_WHITE"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/top_line"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="@color/yash"
+        android:fadingEdge="horizontal|vertical"
+        android:fadingEdgeLength="50dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/alert_title_c2dm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center"
+        android:text="Title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.01" >
+
+        <TextView
+            android:id="@+id/alert_content_c2dm"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_weight="0.95"
+            android:gravity="center"
+            android:text="Content"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+    </ScrollView>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="10dp" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <Button
+                android:id="@+id/alert_ok_c2dm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="OK" />
+
+            <Button
+                android:id="@+id/alert_cancel_c2dm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:text="Cancel"
+                android:visibility="visible" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

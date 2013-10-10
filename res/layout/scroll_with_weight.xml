@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff0000"
+                android:text="Buttons wont be moved up when EditText get focus"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#00ff00"
+                android:text="Solved by adding this  android:windowSoftInputMode=adjustPan for activity in manifest" />
+
+            <EditText
+                android:id="@+id/editText1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:ems="10" >
+
+                <requestFocus />
+            </EditText>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Google's showing no signs of slowing its pace of Android development, with Android 4.0 appearing on the Galaxy Nexus late in 2011, followed in July of 2012 by the Android 4.1 Jelly Bean release that arrived powering the super Nexus 7.
+
+But, forward-looking, update-obsessed people that we are, we can't help but imagine how Google's going to maintain the pace of innovation in its next version of its mobile OS, Android 5.0.
+
+All we know so far is that Google's working away on the K release of Android, which it's developing under the dessert-related codename of Key Lime Pie. Regarding the version number, it's likely that the Key Lime Pie moniker will be given to Android 5.0. We thought we might find out on 29 October 2012 but as yet there is no official word from Google.
+
+So now as we wait on official news of the Android 5.0 release date and features, we can start to pull together the Key Lime Pie rumours from around the web, with the first sighting of Android 5.0 on a benchmarking website, apparently running on a Sony smartphone. There has previously been speculation that Sony is in line to produce the next Nexus phone, which may lend some credence to this rumour."
+                 />
+            
+             <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Google's showing no signs of slowing its pace of Android development, with Android 4.0 appearing on the Galaxy Nexus late in 2011, followed in July of 2012 by the Android 4.1 Jelly Bean release that arrived powering the super Nexus 7.
+
+But, forward-looking, update-obsessed people that we are, we can't help but imagine how Google's going to maintain the pace of innovation in its next version of its mobile OS, Android 5.0.
+
+All we know so far is that Google's working away on the K release of Android, which it's developing under the dessert-related codename of Key Lime Pie. Regarding the version number, it's likely that the Key Lime Pie moniker will be given to Android 5.0. We thought we might find out on 29 October 2012 but as yet there is no official word from Google.
+
+So now as we wait on official news of the Android 5.0 release date and features, we can start to pull together the Key Lime Pie rumours from around the web, with the first sighting of Android 5.0 on a benchmarking website, apparently running on a Sony smartphone. There has previously been speculation that Sony is in line to produce the next Nexus phone, which may lend some credence to this rumour."
+                 />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Submit" />
+
+</LinearLayout>

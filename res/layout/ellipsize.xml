@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.vl.samples.ellipsizetextview.EllipsizeTextView
+        android:id="@+id/ellipsizeTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:text="" />
+	
+    <com.vl.samples.ellipsizetextview.EllipsizeTextView
+        android:id="@+id/ellipsizeTextView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        
+        android:text="Some people speculated that Google's IPO would inevitably lead to changes in company culture. Reasons ranged from shareholder pressure for employee benefit reductions to the fact that many company executives would become instant pap" />
+    
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:lines="3"
+        android:textColor="#00ff00"
+        android:text="Some people speculated that Google's IPO would inevitably lead to changes in company culture. Reasons ranged from shareholder pressure for employee benefit reductions to the fact that many company executives would become instant pap"
+        android:maxLines="3" />
+
+</LinearLayout>
